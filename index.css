@@ -1,0 +1,50 @@
+.s-c {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: flex-start
+}
+
+.s-i {
+  width: 100%
+}
+
+.c {
+  width: 75px;
+  height: 75px;
+  margin: 5px 5px;
+  background-color: #4f7db1;
+  border: 3px solid #030f13;
+  border-radius: 35%;
+  color: #ffffff;
+  padding: 15px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: all ease 0.2s;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+  font-size: large;
+  font-weight: lighter;
+  font-style: italic
+}
+
+.c:hover {
+  background-color: rgb(45, 74, 106);
+  transition: all ease 0.1s;
+}
+
+.overlay {
+  position: relative;
+  left: 1%;
+  margin-bottom: 11px;
+  background-color: #ffffff;
+  padding: 20px;
+  transition: all ease 0.6s;
+  border-radius: 8px;
+  box-shadow: 5px 5px 10px #ffffff55
+}
+
+body {
+  background-color: #495255;
+  margin: 0;
+  padding: 20px
+}

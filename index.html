@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple calculator</title>
+</head>
+<link rel="stylesheet" href="index.css">
+<body>
+    <div class="s-c">
+        <div class="overlay" id="tab"></div>
+        <div class="s-i">
+            <button class="c" onclick="erase()">C</button>
+            <button class="c" onclick="backspace()">←B</button>
+            <button class="c" onclick="append('%')">%</button>
+            <button class="c" onclick="append('/', false)">/</button>
+            <button class="c" onclick="append('(')">(</button>
+            <button class="c" onclick="getvalue()">=</button>
+        </div>
+        <div class="s-i">
+            <button class="c" onclick="append('7')">7</button>
+            <button class="c" onclick="append('8')">8</button>
+            <button class="c" onclick="append('9')">9</button>
+            <button class="c" onclick="append('*')">*</button>
+            <button class="c" onclick="append(')')">)</button>
+            <button class="c" onclick="backspacel()">B→</button>
+        </div>
+        <div class="s-i">
+            <button class="c" onclick="append('4')">4</button>
+            <button class="c" onclick="append('5')">5</button>
+            <button class="c" onclick="append('6')">6</button>
+            <button class="c" onclick="append('-', false)">-</button>
+            <button class="c" onclick="append('**', false)">^</button>
+        </div>
+        <div class="s-i">
+            <button class="c" onclick="append('0')">0</button>
+            <button class="c" onclick="append('1')">1</button>
+            <button class="c" onclick="append('2')">2</button>
+            <button class="c" onclick="append('3')">3</button>
+            <button class="c" onclick="append('+', false)">+</button>
+        </div>
+    </div>
+</body>
+<script src="index.js"></script>
+</html>
